@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Faculty-Responsive university staff personal page</title>
+        <title>A. Yasar</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="author" content="owwwlab.com">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        
+
         <meta name="description" content="A theme for faculty profile page" />
         <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
 
@@ -13,24 +13,23 @@
 
         <!--CSS styles-->
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css">
-        <link id="theme-style" rel="stylesheet" href="css/theme-style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/blue.css">
 
-        
+
         <!--/CSS styles-->
         <!--Javascript files-->
-        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="js/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-        
+
         <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
         <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
 
-        <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
         <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
 
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -40,129 +39,149 @@
         <script type="text/javascript" src="js/masonry.min.js"></script>
 
         <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
 
         <script type="text/javascript" src="js/magnific-popup.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
 
         <!--/Javascript files-->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+          ga('create', 'UA-58918427-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </head>
     <body>
 
         <div id="wrapper">
-            <a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
 
             <div id="sidebar">
-                <div id="main-nav">
-                    <div id="nav-container">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
                         <div id="profile" class="clearfix">
                             <div class="portrate hidden-xs"></div>
                             <div class="title">
-                                <h2>Pierre Boutry</h2>
-                                <h3>University of Strasbourg</h3>
+                                <h2>Abdurrahman Yasar</h2>
+                                <h3>Georgia Tech.</h3>
                             </div>
-                            
                         </div>
-                        <ul id="navigation">
-                            <li>
-                              <a href="#biography">
-                                <div class="icon icon-user"></div>
-                                <div class="text">About Me</div>
-                              </a>
-                            </li>  
-                            
-                            <li>
-                              <a href="#research">
-                                <div class="icon icon-book"></div>
-                                <div class="text">Research</div>
-                              </a>
-                            </li> 
-                            
-                            <li>
-                              <a href="#publications">
-                                <div class="icon icon-edit"></div>
-                                <div class="text">Publications</div>
-                              </a>
-                            </li> 
+                        <!-- /Profile/logo section-->
 
-                            <li>
-                              <a href="#teaching">
-                                <div class="icon icon-time"></div>
-                                <div class="text">Teaching</div>
-                              </a>
-                            </li>
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li>
+                                  <a href="#biography">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About Me</div>
+                                  </a>
+                                </li>
 
-                            <!--<li>
-                              <a href="#gallery">
-                                <div class="icon icon-picture"></div>
-                                <div class="text">Gallery</div>
-                              </a>
-                            </li>-->
+                                <li>
+                                  <a href="#research">
+                                    <i class="fa fa-book"></i>
+                                    <div class="text">Research</div>
+                                  </a>
+                                </li>
 
-                            <li>
-                              <a href="#contact">
-                                  <div class="icon icon-calendar"></div>
-                                  <div class="text">Contact & Meet Me</div>
-                              </a>
-                            </li>
+                                <li>
+                                  <a href="#publications">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li>
 
-                            <li class="external">
-                              <a target="_blank" href="#">
-                                  <div class="icon icon-download-alt"></div>
-                                  <div class="text">Download CV</div>
-                              </a>
-                            </li>
-                        </ul>
-                    </div>        
+                                <li>
+                                  <a href="#projects">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="text">Projects</div>
+                                  </a>
+                                </li>
+
+<!--
+                                <li>
+                                  <a href="#gallery">
+                                    <i class="fa fa-picture-o"></i>
+                                    <div class="text">Gallery</div>
+                                  </a>
+                                </li>
+-->
+                                <li>
+                                  <a href="#contact">
+                                      <i class="fa fa-calendar"></i>
+                                      <div class="text">Contact Me</div>
+                                  </a>
+                                </li>
+
+                                <li class="external">
+                                  <a target="_blank" href="cv.pdf">
+                                      <i class="fa fa-download"></i>
+                                      <div class="text">Download CV</div>
+                                  </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Sidebar footer -->
+                        <!-- /Main navigation-->
+                        <div id="sidebar-footer">
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+
+
+                            <div id="copyright">Copyright text here</div>
+
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
                 </div>
-                
-                <div class="social-icons">
-                    <!--<ul>
-                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                    </ul>-->
-                </div>    
             </div>
 
             <div id="main">
-            
+
                 <div id="biography" class="page home" data-pos="home">
                     <div class="pageheader">
                         <div class="headercontent">
                             <div class="section-container">
-                                
+
                                 <div class="row">
-                                    <div class="col-sm-2 visible-sm"></div>
-                                    <div class="col-sm-8 col-md-5">
-                                        <div class="biothumb">
-                                            <img alt="image" src="img/personal/personal-big.png" class="img-responsive">
-                                            <div class="overlay">
-                                                
-                                                <h1 class="">Pierre Boutry</h1>
-                                                <ul class="list-unstyled">
-                                                    <li>IGG Team</li>
-                                                    <li>ICube laboratory</li>
-                                                    <li>University of Strasbourg</li>
-                                                </ul>
-                                            </div> 
-                                            
-                                               
-                                        </div>
-                                        
-                                    </div>
                                     <div class="clearfix visible-sm visible-xs"></div>
-                                    <div class="col-sm-12 col-md-7">
-                                        <h3 class="title">Bio</h3>
-                                        <p>A social psychologist and marketer, Jennifer Doe is the General Atlantic Professor of Marketing and Ormond Family Faculty at Stanford University’s Graduate School of Business. Her research spans time, money and happiness. She focuses on questions such as: What actually makes people happy, as opposed to what they think makes them happy? </p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    </div>  
-                                    
+                                    <div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6">
+                                        <h3 class="title">Abdurrahman Yasar</h3>
+					                        <p>
+                                                I am a Ph.D. student at <a target="_blank" href="http://gatech.edu">Georgia Institute of Technology</a>
+                                                in Atlanta, GA, supervised by <a target="_blank" href="http://www.cc.gatech.edu/~umit/"> Umit V.
+                                                Catalyurek</a>. My main research interests include, but not limited to the areas
+                                                of scalable graph analytics, graph processing middlewares, distributed systems
+                                                and high performance computing.
+                                            </p>
+
+                                            <p>
+                                                I completed my MS in Computer Engineering at <a target="_blank" href="http://bilkent.edu.tr">Bilkent University</a> working on
+                                                scalable layout for large graphs while being advised by <a target="_blank" href="http://bugragedik.com">
+                                                Bugra Gedik</a>. Prior to that I received my BS degree from <a target="_blank" href="http://gsu.edu.tr">Université Galatasary</a>.
+                                            </p>
+                                    </div>
                                 </div>
-                            </div>        
+                            </div>
                         </div>
                     </div>
 
                     <div class="pagecontents">
+
                         <div class="section color-1">
                             <div class="section-container">
                                 <div class="row">
@@ -174,41 +193,41 @@
                                             <li>
                                                 <div class="dates">
                                                     <span>Present</span>
-                                                    <span>2005</span>
+                                                    <span>2015</span>
                                                 </div>
                                                 <div class="content">
-                                                    <h4>General Atlantic Professor</h4>
-                                                    <p><em>Stanford University</em>, Graduate School of Business</p>
+                                                    <h4>Graduate Research Assistant</h4>
+                                                    <p><em>Georgia Tech.</em>, College of Computing</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="dates">
-                                                    <span>2005</span>
-                                                    <span>2004</span>
+                                                    <span>Fall</span>
+                                                    <span>2016</span>
                                                 </div>
                                                 <div class="content">
-                                                    <h4>Full Professor</h4>
-                                                    <p><em>Stanford University</em>, Graduate School of Business</p>
+                                                    <h4>Graduate Teaching Assistant</h4>
+                                                    <p><em>Georgia Tech.</em>, CS 8803 - Big Data Systems</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="dates">
-                                                    <span>2004</span>
-                                                    <span>2001</span>
+                                                    <span>2015</span>
+                                                    <span>2013</span>
                                                 </div>
                                                 <div class="content">
-                                                    <h4>Assistant Professor</h4>
-                                                    <p><em>UCLA</em>, Anderson Graduate School of Management</p>
+                                                    <h4>Research Assistant</h4>
+                                                    <p><em>Bilkent University</em>, <a target="_blank" href="http://www.cs.bilkent.edu.tr/~bgedik/bildids/doku.php"> Data-Intensive Distributed Systems Lab @ Bilkent</a></p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="dates">
-                                                    <span>2001</span>
-                                                    <span>1999</span>
+                                                    <span>2015</span>
+                                                    <span>2013</span>
                                                 </div>
                                                 <div class="content">
-                                                    <h4>Visiting Assistant Professor</h4>
-                                                    <p><em>Columbia University</em>, Graduate School of Business</p>
+                                                    <h4>Research Assistant</h4>
+                                                    <p><em>Bilkent University</em>, <a target="_blank" href="http://www.cs.bilkent.edu.tr/~bgedik/bildids/doku.php"> Data-Intensive Distributed Systems Lab @ Bilkent</a></p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -221,38 +240,47 @@
                                             <li>
                                                 <div class="dy">
                                                     <span class="degree">Ph.D.</span>
-                                                    <span class="year">1995</span>
+                                                    <span class="year">-</span>
                                                 </div>
                                                 <div class="description">
-                                                    <p class="waht">Ph.D. in Marketing</p>
-                                                    <p class="where">Stanford University Graduate School of Business</p>
+                                                    <p class="waht">Ph.D. in Computer Science</p>
+                                                    <p class="where">Georgia Tech. College of Computing</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="dy">
-                                                    <span class="degree">M.B.A.</span><span class="year">1993</span>
+                                                    <span class="degree">M.S..</span><span class="year">2015</span>
                                                 </div>
                                                 <div class="description">
-                                                    <p class="waht">Master of Business Administration</p>
-                                                    <p class="where">Boston University</p>
+                                                    <p class="waht">Master of Science in Computer Engineering</p>
+                                                    <p class="where">Bilkent University</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="dy">
-                                                    <span class="degree">B.A.</span><span class="year">1989</span>
+                                                    <span class="degree">B.S.</span><span class="year">2013</span>
                                                 </div>
                                                 <div class="description">
-                                                    <p class="waht">Bachelor of Arts in Psychology</p>
-                                                    <p class="where">University of California, Berkeley</p>
+                                                    <p class="waht">Bachelor of Science in Computer Engineering</p>
+                                                    <p class="where">Université Galatasaray</p>
                                                 </div>
                                             </li>
-                                            
+
                                         </ul>
 
-                                    </div>    
-                                </div>    
+                                    </div>
+                                </div>
                             </div>
-                                
+                        </div>
+
+                        <div class="section fixedbg parallax">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <h2 class="heading">Knowledge without research eventually stagnates! *</h2>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="section color-2">
@@ -263,22 +291,72 @@
                                             <h3>Honors, Awards and Grants</h3>
                                         </div>
                                         <ul class="timeline">
-                                                    
+
                                             <li class="open">
-                                                <div class="date">SCP 2014</div>
+                                                <div class="date">2018</div>
                                                 <div class="circle"></div>
                                                 <div class="data">
-                                                    <div class="subject">Distinguished Scientific Achievement Award</div>
-                                                    <div class="text row">
-                                                        <div class="col-md-2">
-                                                            <img alt="image" class="thumbnail img-responsive" src="img/personal/awards100x100.png" >
-                                                        </div>
-                                                        <div class="col-md-10">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas dapibus lectus non dignissim. Pellentesque auctor ornare urna, volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. Aenean commodo lectus sed purus auctor ullamcorper.
-                                                        </div>
-                                                    </div>
+                                                    <div class="subject">Selected as one of the HPEC 2018 Graph Challenge Champions</div>
                                                 </div>
                                             </li>
+
+                                            <li class="open">
+                                                <div class="date">2015</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Graduate Research Assistanship - Georgia Tech.</div>
+                                                </div>
+                                            </li>
+
+                                            <li class="open">
+                                                <div class="date">2013</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Graduate Research Assistanship - Bilkent University</div>
+                                                </div>
+                                            </li>
+
+                                            <li class="open">
+                                                <div class="date">2012</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Excellence study grant provided by the Embassy of France in Turkey</div>
+                                                </div>
+                                            </li>
+
+                                            <li class="open">
+                                                <div class="date">2012</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">First Grade, Université Galatasaray</div>
+                                                </div>
+                                            </li>
+
+
+                                            <li class="open">
+                                                <div class="date">2012</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Special Jury Award, Team ONGUN, IBM Software Academy, Turkey</div>
+                                                </div>
+                                            </li>
+
+                                            <li class="open">
+                                                <div class="date">2011</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">French Institute for Research in Computer Science and Automation Fellowship for summer internship</div>
+                                                </div>
+                                            </li>
+
+                                            <li class="open">
+                                                <div class="date">2008</div>
+                                                <div class="circle"></div>
+                                                <div class="data">
+                                                    <div class="subject">Galatasaray Education Foundation (GEV) Bachelors Degree Fellowship.</div>
+                                                </div>
+                                            </li>
+<!--
                                             <li>
                                                 <div class="date">2012-2013</div>
                                                 <div class="circle"></div>
@@ -294,102 +372,65 @@
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li>
-                                                <div class="date">June 2011</div>
-                                                <div class="circle"></div>
-                                                <div class="data">
-                                                    <div class="subject">Nautilus Silver Award for Dragonfly Effect</div>
-                                                    <div class="text row">
-                                                        <div class="col-md-2">
-                                                            <img alt="image" class="thumbnail img-responsive" src="img/personal/awards100x100.png" >
-                                                        </div>
-                                                        <div class="col-md-10">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas dapibus lectus non dignissim. Pellentesque auctor ornare urna, volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. Aenean commodo lectus sed purus auctor ullamcorper.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="date">2000 - 2003</div>
-                                                <div class="circle"></div>
-                                                <div class="data">
-                                                    <div class="subject">Hong Kong Science International Research Grant</div>
-                                                    <div class="text row">
-                                                        <div class="col-md-2">
-                                                            <img alt="image" class="thumbnail img-responsive" src="img/personal/awards100x100.png" >
-                                                        </div>
-                                                        <div class="col-md-10">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas dapibus lectus non dignissim. Pellentesque auctor ornare urna, volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. Aenean commodo lectus sed purus auctor ullamcorper.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="date">1999</div>
-                                                <div class="circle"></div>
-                                                <div class="data">
-                                                    <div class="subject">Citibank Best Teacher Award (school-wide award, UCLA)</div>
-                                                    <div class="text row">
-                                                        <div class="col-md-2">
-                                                            <img alt="image" class="thumbnail img-responsive" src="img/personal/awards100x100.png" >
-                                                        </div>
-                                                        <div class="col-md-10">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas dapibus lectus non dignissim. Pellentesque auctor ornare urna, volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. Aenean commodo lectus sed purus auctor ullamcorper.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
+-->
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                            
-                    </div>
-                </div>
-
-                <div id="research" class="page">
-                    <div class="pageheader">
-
-                        <div class="headercontent">
-
-                            <div class="section-container">
-                                <h2 class="title">Research Summary</h2>
-                            
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <p>Recent trends in deep-submicron very large-scale integration (VLSI) circuit technology have resulted in new requirements for algorithms in integrated circuit layout. Much of my work centers on new formulations that capture performance and density criteria in the physical layout phases of computer-aided design (CAD). Our results include near-optimal approximation algorithms for such computationally difficult problems as minimum-cost Steiner tree routing, low-skew clock networks, cost-radius tradeoffs, bounded-density trees, circuit probe testing, high-performing Elmore-based constructions, layout density control, and improved manufacturability. </p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="subtitle text-center">
-                                            <h3>Interests</h3>
-                                        </div>
-                                        <ul class="ul-boxed list-unstyled">
-                                            <li>Time, Money and Happiness</li>
-                                            <li>The Power of Story</li>
-                                            <li>Building Innovative Brands</li>
-                                            <li>Cultural Psychology</li>
-                                            <li>Emotions, Goals, and Health</li>
-                                            <li>computer-aided design</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div id="research" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                <h2 class="title">Research</h2>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="pagecontents">
+                        <div class="section color-2">
+                            <div class="section-container">
+                                <h2 class="title">Research Summary</h2>
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>I conduct research in the general area of data-intensive distributed systems, with a particular focus on fast data and big data. My research interests include scalable graph analytics, distributed and single node graph processing middlewares, MapReduce systems. My research addresses issues such as parallelization, fault-tolerance, profiling and optimization, and scalable data mining, especially in the context of social graphs. </p>
+
+                                        <p>Currently I am a member of Prof. Umit Catalyurek's HPC Lab as a PhD. student.</p>
+
+                                        <p>My dissertation research focused on a scalable Map/Reduce-style method called ICBP, which can divide the graph into a series of disk blocks that contain sub-graphs with high locality. </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="subtitle text-center">
+                                            <h3>Interests</h3>
+                                        </div>
+                                        <ul class="ul-boxed list-unstyled">
+					    <li>Linear Algebra based Scalable Graph Algorithms</li>
+                                            <li>Graph Alignment</li>
+                                            <li>Scalable Graph Analytics</li>
+                                            <li>Graph Processing Middlewares</li>
+                                            <li>Parallel and Distributed Algorithms</li>
+                                            <li>Big Data</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<!--
                         <div class="section color-1">
                             <div class="section-container">
                                 <div class="title text-center">
                                     <h3>Laboratory Personel</h3>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-8">
-                                        
+                                    <div class="col-md-6">
+
                                         <div id="labp-heads-wrap">
-                                            
+
                                             <div id="lab-carousel">
                                                 <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div>
                                                 <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div>
@@ -399,8 +440,8 @@
                                                 <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div>
                                             </div>
                                             <div>
-                                                <a href="#" id="prev"><i class="icon-chevron-sign-left"></i></a>
-                                                <a href="#" id="next"><i class="icon-chevron-sign-right"></i></a>
+                                                <a href="#" id="prev"><i class="fa fa-chevron-circle-left"></i></a>
+                                                <a href="#" id="next"><i class="fa fa-chevron-circle-right"></i></a>
                                             </div>
                                         </div>
 
@@ -437,172 +478,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <h3>Great lab Personel!</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="section color-2">
-                            <div class="section-container">
-                                <div class="title text-center">
-                                    <h3>Research Projects</h3>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <ul class="ul-withdetails">
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png" class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
+-->
                     </div>
                 </div>
 
@@ -611,24 +495,17 @@
                         <div class="pageheader">
                             <div class="headercontent">
                                 <div class="section-container">
-                                    
-                                    <h2 class="title">Selected Publications</h2>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        </div>
-                                    </div>
-                                    
+                                    <h2 class="title">Publications</h2>
                                 </div>
                             </div>
                         </div>
 
                         <div class="pagecontents">
-                            
+
                             <div class="section color-1" id="filters">
                                 <div class="section-container">
                                     <div class="row">
-                                        
+
                                         <div class="col-md-3">
                                             <h3>Filter by type:</h3>
                                         </div>
@@ -637,495 +514,210 @@
                                                 <option class="filter" value="all" selected>All types</option>
                                                 <option class="filter" value="jpaper">Jounal Papers</option>
                                                 <option class="filter" value="cpaper">Conference Papers</option>
-                                                <option class="filter" value="bookchapter">Book Chapters</option>
-                                                <option class="filter" value="book">Books</option>
+                                                <option class="filter" value="cpatent">Patent</option>
+                                                <!--<option class="filter" value="bookchapter">Book Chapters</option>-->
+                                                <!--<option class="filter" value="book">Books</option>-->
                                                 <!-- <option class="filter" value="report">Reports</option>
                                                 <option class="filter" value="tpaper">Technical Papers</option> -->
                                             </select>
                                         </div>
-                                        
+
                                         <div class="col-md-3" id="sort">
                                             <span>Sort by year:</span>
-                                            <div class="btn-group pull-right"> 
+                                            <div class="btn-group pull-right">
 
-                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
-                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
                                             </div>
-                                        </div>    
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="section color-2" id="pub-grid">
                                 <div class="section-container">
-                                    
+
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="pitems">
-                                                
-                                                <div class="item mix cpaper" data-year="2013">
+
+                                                <div class="item mix cpaper" data-year="2018">
                                                     <div class="pubmain">
+                                                        <!--
                                                         <div class="pubassets">
-                                                            
                                                             <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
+                                                                <i class="fa fa-expand"></i>
                                                             </a>
                                                             <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
+                                                                <i class="fa fa-external-link"></i>
                                                             </a>
                                                             <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
+                                                                <i class="fa fa-cloud-download"></i>
                                                             </a>
-                                                            
                                                         </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
-                                                        
+                                                        -->
+                                                        <h4 class="pubtitle">Fast Triangle Counting Using Cilk <b>(one of the Graph Challenge Champions)</b></h4>
+                                                        <div class="pubauthor"><strong>Abdurrahman Yaşar</strong>, Sivasankaran Rajamanickam, Michael M. Wolf, Jonathan. W. Berry, Ümit V. Çatalyürek</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> HPEC 2018</div>
                                                     </div>
                                                     <div class="pubdetails">
                                                         <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
+							<p>Triangle counting is a representative graph analysis algorithm with several applications. It is also one of the three benchmarks used in the IEEE HPEC Graph Challenge. Triangle counting can be expressed as a graph algorithm and in a linear algebra formulation using sparse matrix-matrix multiplication (SpGEMM). The linear algebra formulation using the SpGEMM algorithm in the Kokkoskernels library was one of the fastest implementations for the triangle counting problem in last year’s Graph Challenge. This paper improves upon that work by developing an SpGEMM implementation that relies on a highly efficient, work-stealing, multithreaded runtime. We demonstrate that this new implementation results in improving the triangle counting runtime up to 5x to 12x on different architectures. This new implementation also breaks the 109 barrier for the rate measure on a single node for the triangle counting problem. We also compare the linear algebra formulation with a traditional graph based formulation. The linear algebra implementation is up to 2:96x to 7x faster on different architectures compared to the graph based implementation. Furthermore, we present analysis of the scaling of the triangle counting implementation as the graph sizes increase using both synthetic and real graphs from the graph challenge data set.</p>
                                                     </div>
                                                 </div>
 
 
-                                                <div class="item mix book" data-year="2010">
+                                                <div class="item mix cpaper" data-year="2018">
                                                     <div class="pubmain">
+                                                        <!--
                                                         <div class="pubassets">
-                                                            
                                                             <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
+                                                                <i class="fa fa-expand"></i>
                                                             </a>
                                                             <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
+                                                                <i class="fa fa-external-link"></i>
                                                             </a>
-                                                            
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
                                                         </div>
+                                                        -->
+                                                        <h4 class="pubtitle">Programming strategies for irregular algorithms on the Emu Chick</h4>
+                                                        <div class="pubauthor">E. Hein, S. Eswar, <strong>Abdurrahman Yasar</strong>, B. Uçar, Ü. Çatalyürek, T. Conte, J. Riedy, R. Vuduc, and J. S. Young</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> Submitted </div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+							<p>submitted. Under Review.</p>
+                                                    </div>
+                                                </div>
 
+
+                                                <div class="item mix cpaper" data-year="2018">
+                                                    <div class="pubmain">
+                                                        <!--
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        -->
+                                                        <h4 class="pubtitle">An Iterative Global Structure-Assisted Labeled Network Aligner</h4>
+                                                        <div class="pubauthor"><strong>Abdurrahman Yasar</strong>, Umit Catalyurek</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> KDD 2018</div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+							<p>Integrating data from heterogeneous sources is often modeled as merging graphs. Given two or more 'compatible', but not-isomorphic graphs, the first step is to identify a graph alignment, where a potentially partial mapping of vertices between two graphs is computed. A significant portion of the literature on this problem only takes the global structure of the input graphs into account. Only more recent ones additionally use vertex and edge attributes to achieve a more accurate alignment. However, these methods are not designed to scale to map large graphs arising in many modern applications. We propose a new iterative graph aligner, gsaNA, that uses the global structure of the graphs to significantly reduce the problem size and align large graphs with a minimal loss of information. Concretely, we show that our proposed technique is highly flexible, can be used to achieve higher recall, and it is orders of magnitudes faster than the current state of the art techniques.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="2018">
+                                                    <div class="pubmain">
+                                                        <!--
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        -->
+                                                        <h4 class="pubtitle">SINA: A Scalable Iterative Network Aligner</h4>
+                                                        <div class="pubauthor"><strong>Abdurrahman Yasar</strong>, Bora Ucar, Umit Catalyurek</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> ASONAM 2018</div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+							<p>Given two graphs, network alignment asks for a potentially partial mapping between the vertices of the two graphs. This arises in many applications where data from different sources need to be integrated. Recent graph aligners use the global structure of input graphs and additional information given for the edges and vertices. We present SINA, an efficient, shared memory parallel implementation of such an aligner. Our experimental evaluations on a 32-core shared memory machine showed that SINA scales well for aligning large real-world graphs: SINA can achieve up to 28: speedup, and can reduce the total execution time of a graph alignment problem with 2M vertices and 100M edges from 4.5 hours to under 10 minutes. To the best of our knowledge, SINA is the first parallel aligner that uses global structure and vertex and edge attributes to handle large graphs. </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix jpaper" data-year="2017">
+                                                    <div class="pubmain">
+                                                        <!--
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        -->
+                                                        <h4 class="pubtitle">Distributed block formation and layout for disk-based management of large-scale graphs</h4>
+                                                        <div class="pubauthor"><strong>Abdurrahman Yasar</strong>, Bugra Gedik, Hakan Ferhatosmanoglu</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Papers</span> Journal of Distributed and Parallel Databases</div>
+
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>We are witnessing an enormous growth in social networks as well as in the volume of data generated by them. An important portion of this data is in the form of graphs. In recent years, several graph processing and management systems emerged to handle large-scale graphs. The primary goal of these systems is to run graph algorithms and queries in an efficient and scalable manner. Unlike relational data, graphs are semi-structured in nature. Thus, storing and accessing graph data using secondary storage requires new solutions that can provide locality of access for graph processing workloads. In this work, we propose a scalable block formation and layout technique for graphs, which aims at reducing the I/O cost of disk- based graph processing algorithms. To achieve this, we designed a scalable MapReduce-style method called ICBL, which can divide the graph into a series of disk blocks that contain sub-graphs with high locality. Furthermore, ICBL can order the resulting blocks on disk to further reduce non-local accesses. We experimentally evaluated ICBL to showcase its scalability, layout quality, as well as the effectiveness of automatic parameter tuning for ICBL. We deployed the graph layouts generated by ICBL on the Neo4j open source graph database, http://www.neo4j.org/ (2015) graph database management system. Our results show that the layout generated by ICBL reduces the query running times over Neo4j more than compared to the default layout.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpatent" data-year="2017">
+                                                    <div class="pubmain">
+                                                        <!--
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="fa fa-cloud-download"></i>
+                                                            </a>
+                                                        </div>
+                                                        -->
+                                                        <h4 class="pubtitle">Distributing Data by Successive Spatial Partitionings</h4>
+                                                        <div class="pubauthor"><strong>Abdurrahman Yasar</strong>, AAYUSH GUPTA, SANGEETHA SESHADRI</div>
+                                                        <div class="pubcite"><span class="label label-warning">Patent</span> US Patent (filed)</div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="2016">
+                                                    <div class="pubmain">
+                                                        <!--
+                                                        <div class="pubassets">
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="fa fa-expand"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="fa fa-external-link"></i>
+                                                            </a>
+                                                        </div>
+                                                        -->
                                                         <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
+                                                            Machine to Machine Trust in the IoT Era
                                                         </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
+                                                        <div class="pubauthor">L Liu, M Loper, Y Ozkaya, <strong>A Yasar</strong>, E Yigitoglu</div>
+
                                                         <div class="pubcite">
-                                                            <span class="label label-primary">Book</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2013">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
+                                                            <span class="label label-success">Conference Papers</span> AAMAS 2016 Proceedings of the 18th International Workshop on Trust in Agent Societies co-located with the 15th International Conference on Autonomous Agents and Multiagent Systems
                                                         </div>
 
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
-                                                        
                                                     </div>
                                                     <div class="pubdetails">
                                                         <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix bookchapter" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
-                                                        </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite">
-                                                            <span class="label label-info">Book Chapter</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2012">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="item mix cpaper" data-year="2012">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="item mix book" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
-                                                        </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite">
-                                                            <span class="label label-primary">Book</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2011">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix bookchapter" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
-                                                        </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite">
-                                                            <span class="label label-info">Book Chapter</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2010, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="item mix cpaper" data-year="2011">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2011, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="item mix book" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
-                                                        </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite">
-                                                            <span class="label label-primary">Book</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2009">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2009, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix bookchapter" data-year="2010">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">
-                                                            The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
-                                                        </h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite">
-                                                            <span class="label label-info">Book Chapter</span> John Wiley & Sons | September 28, 2010 | <strong>ISBN-10:</strong> 0470614153
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <img alt="image" src="img/pubs/150x200.png" align="left"  style="padding:0 30px 30px 0;">
-                                                        <h4>Proven strategies for harnessing the power of social media to drive social change</h4>
-                                                        <p>Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                            <li>Onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                                                        </ul>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="item mix jpaper" data-year="2008">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
-
-                                                        <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
-                                                        <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2008, Pages 191-194</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Although a substantial amount of research has examined the constructs of warmth and competence, far less has examined how these constructs develop and what benefits may accrue when warmth and competence are cultivated. Yet there are positive consequences, both emotional and behavioral, that are likely to occur when brands hold perceptions of both. In this paper, we shed light on when and how warmth and competence are jointly promoted in brands, and why these reputations matter.</p>
+                                                        <p>Machine to machine communications are at the center stage of the Internet of things (IoT).
+                                                            Connecting the physical world with the digital world not only creates new opportunities for innovation and discovery, but also opens doors for misuse and abuse. This paper argues that reputation based trust can be an effective countermeasure for securing machine-to-machine communications. We propose to establish machine-to-machine trust by taking into account both transaction/interaction service behaviors and feedback rating behaviors in the presence of bogus transactions and dishonest feedbacks. Our machine-to-machine trust model, called M2MTrust, introduces two novel trust metrics: (1) pairwise similarity based feedback credibility and (2) threshold-controlled trust propagation. We compute the direct trust from machine A to machine B by utilizing their pairwise rating similarity as the weight to the normalized aggregate of ratings that A has given to B. Our direct trust computation model can effectively constrain malicious nodes to gain direct trusts from dishonest feedback ratings by leveraging feedback credibility. Furthermore, our threshold-controlled trust propagation mechanism can successfully block the trust propagation from good nodes to malicious nodes. We conduct extensive experiments using simulation and real datasets and the experimental results show that M2MTrust significantly outperforms other trust metrics in terms of both attack resilience and performance in the presence of dishonest feedbacks and sparse feedback ratings against four representative attack models.
+                                                        </p>
                                                     </div>
                                                 </div>
 
@@ -1140,338 +732,277 @@
                     </div>
                 </div>
 
-
-                <div id="teaching" class="page">
+                <div id="projects" class="page">
                     <div class="pageheader">
                         <div class="headercontent">
                             <div class="section-container">
-                                
-                                <h2 class="title">Teaching</h2>
-                                
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                                                   
-                                    </div>
-                                </div>
+                                <h2 class="title">Projects</h2>
                             </div>
                         </div>
                     </div>
+
                     <div class="pagecontents">
-                        <div class="section color-1">
-                            <div class="section-container">
-                                <div class="row">
-                                    <div class="title text-center">
-                                        <h3>Currrent Teaching</h3>
-                                    </div>
-                                    <ul class="ul-dates">
-                                        <li>
-                                            <div class="dates">
-                                                <span>Present</span>
-                                                <span>1995</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Preclinical Endodnotics</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>Present</span>
-                                                <span>2003</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>SELC 8160 Molar Endodontic Selective</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>Present</span>
-                                                <span>2010</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         <div class="section color-2">
                             <div class="section-container">
+
                                 <div class="row">
-                                    <div class="title text-center">
-                                        <h3>Teaching History</h3>
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <ul class="ul-withdetails">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/400x400.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Graph Alignment</h3>
+                                                            <p>In this project, we study the problem of using global structure of the graphs to decrease the problem size and align larger graphs with a minimal loss of information.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/stallion.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Stallion</h3>
+                                                            <p>Our goal was to propose a Computation oriented and I/O E cient graph processing system. In Stallion we have propesed a novel layout for graphs on disk and also a new programming API.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/icbl.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>ICBL</h3>
+                                                            <p>In this work, we propose a scalable block formation and layout technique for graphs, which aims at reducing the I/O cost of disk-based graph processing algorithms</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/rh.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>RH++</h3>
+                                                            <p>Objective of Rh++ was to develop a social responsibility project whose goal is to accelarate and optimize pre-transfusion procedures of Turkish hospitals. Rh++ aims to  nd and redirect donors to centers quickly in need. For this we built a distributed system and necessary applications for users, donors and centers.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul-dates-gray">
-                                        <li>
-                                            <div class="dates">
-                                                <span>1997</span>
-                                                <span>1995</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Preclinical Endodnotics</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>2005</span>
-                                                <span>2003</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>SELC 8160 Molar Endodontic Selective</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>2011</span>
-                                                <span>2010</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>2011</span>
-                                                <span>2010</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dates">
-                                                <span>2011</span>
-                                                <span>2010</span>
-                                            </div>
-                                            <div class="content">
-                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!--<div id="gallery" class="page">
-                    <div class="pagecontents">
-                        
-                        <div class="section color-3" id="gallery-header">
+
+                <div id="gallery" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
                             <div class="section-container">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h2>Gallery</h2>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </div>
-                                </div>
+                                <h2 class="title">Gallery</h2>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="pagecontents">
                         <div class="section color-3" id="gallery-large">
                             <div class="section-container">
-                                
+
                                 <ul id="grid" class="grid">
                                     <li>
                                         <div>
-                                            <img alt="image" src="img/gallery/450x600.png">
-                                            <a href="img/gallery/450x600.png" class="popup-with-move-anim">
+                                            <img alt="image" src="img/gallery/bigbaker.jpg">
+                                            <a href="img/gallery/bigbaker.jpg" class="popup-with-move-anim">
                                                 <div class="over">
                                                     <div class="comein">
-                                                        <i class="icon-search"></i>
+                                                        <h3>@ Big Baker, Ankara, 2015 </h3>
+
                                                         <div class="comein-bg"></div>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
+
                                     <li>
                                         <div>
-                                            <img alt="image" src="img/gallery/600x600.png">
-                                            <a href="img/gallery/600x500.png" class="popup-with-move-anim">
+                                            <img alt="image" src="img/gallery/with-sister.jpg">
+                                            <a href="img/gallery/with-sister.jpg" class="popup-with-move-anim">
                                                 <div class="over">
                                                     <div class="comein">
-                                                        <h3>Image Title</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        <h3>@ Sir, Ankara, 2014 </h3>
+
                                                         <div class="comein-bg"></div>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
+
                                     <li>
                                         <div>
-                                            <img alt="image" src="img/gallery/900x600.png">
-                                            <a href="img/gallery/900x600.png" class="popup-with-move-anim">
+                                            <img alt="image" src="img/gallery/utku-ankara-07-15.jpg">
+                                            <a href="img/gallery/utku-ankara-07-15.jpg" class="popup-with-move-anim">
                                                 <div class="over">
                                                     <div class="comein">
-                                                        <i class="icon-search"></i>
+                                                        <h3>@ Keremeyle, Ankara, July 2015 </h3>
+
                                                         <div class="comein-bg"></div>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
+
                                     <li>
                                         <div>
-                                            <img alt="image" src="img/gallery/400x300.png">
-                                            <a href="img/gallery/400x300.png" class="popup-with-move-anim"> 
+                                            <img alt="image" src="img/gallery/yusuf.jpg">
+                                            <a href="img/gallery/yusuf.jpg" class="popup-with-move-anim">
                                                 <div class="over">
                                                     <div class="comein">
-                                                        <h3>Image Title</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        <h3>@ GSU, Istanbul, 2008 </h3>
+
                                                         <div class="comein-bg"></div>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
-                                    <li>
-                                        <div>
-                                            <img alt="image" src="img/gallery/400x300.png">
-                                            <a href="img/gallery/400x300.png" class="popup-with-move-anim">
-                                                <div class="over">
-                                                    <div class="comein">
-                                                        <i class="icon-search"></i>
-                                                        <div class="comein-bg"></div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <img alt="image" src="img/gallery/800x600.png">
-                                            <a href="img/gallery/800x600.png" class="popup-with-move-anim">
-                                                <div class="over">
-                                                    <div class="comein">
-                                                        <h3>Image Title</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                        <div class="comein-bg"></div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    
-                                    
+
                                 </ul>
-                                    
+
                             </div>
                         </div>
                     </div>
-                    
-                </div>-->
-                <div id="contact" class="page stellar">
+                </div>
+
+                <div id="contact" class="page">
                     <div class="pageheader">
                         <div class="headercontent">
                             <div class="section-container">
-                                
+                                <h2 class="title">Contact Me</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagecontents">
+
+                        <div class="section fixedbg parallax contact-office">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <h2 class="title">At My Office</h2>
+                                        <p> My office is located at Klaus Advanced Computing Building <b>1211 High Performance Computing Lab</b>. In general I am at my office during the weekdays, however before coming sending me an email for appointment should be better. </p>
+                                    </div>
+                                    <div class="col-md-3 text-center hidden-xs hidden-sm">
+                                        <i class="fa fa-coffee icon-huge"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section color-1">
+                            <div class="section-container">
+
                                 <h2 class="title">Contact & Meet Me</h2>
-                            
+
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <p>I would be happy to talk to you if you need my assistance in your research or whether you need bussiness administration support for your company. Though I have limited time for students but I Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                              
+                                        <p> </p>
+                                        <iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=375&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=yasar.abdurrahman%40gmail.com&amp;color=%23875509&amp;ctz=America%2FNew_York" style="border-width:0" width="500" height="375" frameborder="0" scrolling="no"></iframe>
+
                                     </div>
                                     <div class="col-md-4">
                                         <ul class="list-unstyled">
                                             <li>
-                                                <strong><i class="icon-phone"></i>&nbsp;&nbsp;</strong>
-                                                <span>office: 808-808 88 88</span>
+                                                <strong><i class="fa fa-envelope"></i>&nbsp;&nbsp;</strong>
+                                                <span>ayasar@gatech.edu</span>
                                             </li>
                                             <li>
-                                                <strong><i class="icon-phone"></i>&nbsp;&nbsp;</strong>
-                                                <span>lab: 808-808 88 88</span>
+                                                <strong><i class="fa fa-twitter"></i>&nbsp;&nbsp;</strong>
+                                                <span><a href="http://twitter.com/_ayasar" target="_blank">_ayasar</span>
                                             </li>
                                             <li>
-                                                <strong><i class="icon-envelope"></i>&nbsp;&nbsp;</strong>
-                                                <span>jdoe@stanford.edu</span>
+                                                <strong><i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;</strong>
+                                                <span><a href="https://www.linkedin.com/in/abdurrahman-yasar-a2b96237" target="_blank"> a-yasar </a></span>
                                             </li>
-                                            <li>
-                                                <strong><i class="icon-envelope"></i>&nbsp;&nbsp;</strong>
-                                                <span>jdoe@gmail.com</span>
-                                            </li>
-                                            <li>
-                                                <strong><i class="icon-skype"></i>&nbsp;&nbsp;</strong>
-                                                <span>jenniferDoe</span>
-                                            </li>
-                                            <li>
-                                                <strong><i class="icon-twitter"></i>&nbsp;&nbsp;</strong>
-                                                <span>#jenniferDoe</span>
-                                            </li>
-                                            <li>
-                                                <strong><i class="icon-linkedin-sign"></i>&nbsp;&nbsp;</strong>
-                                                <span><a href="#">us.linkedin.com/in/jdoe</a></span>
-                                            </li>
-                                        </ul>    
+                                        </ul>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="pagecontents">
-                        <div class="section contact-office" data-stellar-background-ratio="0.1">
+<!--
+                        <div class="section fixedbg parallax contact-lab">
                             <div class="section-container">
                                 <div class="row">
-                                    <div class="col-md-8">
-                                        <h2 class="title">At My Office</h2>
-                                        <p>You can find me at my office located at Stanford University Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <p>I am at my office every day from 7:00 until 10:00 am, but you may consider a call to fix an appointment.</p>
-                                    </div>
-                                    <div class="col-md-4 text-center hidden-xs hidden-sm">
-                                        <i class="icon-coffee icon-huge"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section color-1">
-                            <div class="section-container">
-                                <div class="row">
-                                    <div class="col-md-4 text-center hidden-xs hidden-sm">
-                                        <i class="icon-stethoscope icon-huge"></i>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h2 class="title">At My Work</h2>
-                                        <p>You can find me at my Work located at Stanford University Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <p>I am at my office every day from 7:00 until 10:00 am, but you may consider a call to fix an appointment.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section contact-lab" data-stellar-background-ratio="0.1">
-                            <div class="section-container">
-                                <div class="row">
-                                    
-                                    <div class="col-md-8">
+                                   <div class="col-md-7 col-md-offset-1">
                                         <h2 class="title">At My Lab</h2>
-                                        <p>You can find me at my office located at Stanford University Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <p>I am at my office every day from 7:00 until 10:00 am, but you may consider a call to fix an appointment.</p>
-                                    </div>
-                                    <div class="col-md-4 text-center hidden-xs hidden-sm">
-                                        <i class="icon-superscript icon-huge"></i>
-                                    </div>
 
+                                    </div>
+                                    <div class="col-md-3 text-center hidden-xs hidden-sm">
+                                        <i class="fa fa-superscript icon-huge"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+-->
                     </div>
-                    
                 </div>
-                
+
                 <div id="overlay"></div>
-            
+
             </div>
         </div>
     </body>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Quad Tree</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+
+function initialize() {
+  var mapOptions = {
+    zoom: 5,
+    center: new google.maps.LatLng(39.9272222, 32.8644444),
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+////////////////////BORDERS////////////////////////////
+  var borders = [
+    new google.maps.LatLng(42, 26),
+    new google.maps.LatLng(42, 45),
+    new google.maps.LatLng(36, 45),
+    new google.maps.LatLng(36, 26),
+    new google.maps.LatLng(42, 26)
+  ];
+
+  var border = new google.maps.Polyline({
+    path: borders,
+    geodesic: false,
+    strokeColor: '#FF0000',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
+
+  border.setMap(map);
+
+///////////////////////////////////////////////////////////
+function findMinDist(p, b) {
+  var min = 9007199254740992;
+
+  for(var i=0, len=b.length; i<len; i++){
+     var temp = Math.abs(p - b[i]);
+     min = ((temp<min) && (temp>0))?temp:min;
+  }
+
+  return min;
+}
+///////////////////////////////////////////////////////////
+  var points = [ [39.0,35.5], [40.5,30.75], [40.5,40.25], [37.5,30.75],[37.5,40.25] ];
+  var colors = [ '#FF0000', '#00FF00', '#0000FF', '#0F0F0F', '#FFFF00'];
+
+  var lngBorders = [26, 45];
+  var latBorders = [36, 42];
+
+  for(var i=0, len=points.length; i<len; i++){
+    var minlng = findMinDist(points[i][1], lngBorders);
+    var minlat = findMinDist(points[i][0], latBorders);
+    lngBorders.push(points[i][1]);
+    latBorders.push(points[i][0]);
+    
+    var ver = [
+      new google.maps.LatLng(points[i][0]-minlat, points[i][1]),
+      new google.maps.LatLng(points[i][0]+minlat, points[i][1]),
+    ];
+
+    var hor = [
+      new google.maps.LatLng(points[i][0], points[i][1]-minlng),
+      new google.maps.LatLng(points[i][0], points[i][1]+minlng),
+    ];
+
+    var horizontalLine = new google.maps.Polyline({
+      path: hor,
+      geodesic: false,
+      strokeColor: colors[i],
+      strokeOpacity: 1.0,
+      strokeWeight: 2
+    });
+
+    var verticalLine = new google.maps.Polyline({
+      path: ver,
+      geodesic: false,
+      strokeColor: colors[i],
+      strokeOpacity: 1.0,
+      strokeWeight: 2
+    });
+
+    horizontalLine.setMap(map);
+    verticalLine.setMap(map);
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>
+
+
