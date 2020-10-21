@@ -27,7 +27,7 @@ M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br
 
 
 [Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
-<div class="text-red mb-2"> (one of the Graph Challenge Innovation Award Winners)</div> <br />
+(one of the Graph Challenge Innovation Award Winners) <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)}</em> <br />
 S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek <br />
 
