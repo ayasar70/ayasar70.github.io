@@ -2,6 +2,7 @@
 permalink: /
 title: "About me"
 layout: "home"
+author_profile: true
 ---
 
 I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
