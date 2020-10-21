@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Abdurrahman Yasar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/ay.png"
   bio              : "Computer Engineer, PhD. Candidate, Georgia Tech."
   location         : "Atlanta, GA"
   email            :
