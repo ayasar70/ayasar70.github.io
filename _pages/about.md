@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
 ---
 
 I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
