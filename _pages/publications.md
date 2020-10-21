@@ -27,13 +27,13 @@ M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br
 
 
 [Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
-(one of the Graph Challenge Innovation Award Winners) <br />
+<em><strong> one of the Graph Challenge Innovation Award Winners</strong></em> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)}</em> <br />
 S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek <br />
 
 
 [Fast Triangle Counting Using Cilk](https://graphchallenge.mit.edu/champions) <br />
-(one of the Graph Challenge Champions) <br />
+<em><strong> one of the Graph Challenge Champions </em></strong> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek <br />
 
@@ -58,11 +58,11 @@ S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Cataly
 
 
 [Linear Algebra-Based Triangle Counting via Fine-Grained Tasking on Heterogeneous Environments](https://graphchallenge.mit.edu/champions) <br />
-(one of the Graph Challenge Innovation Award Winners) <br />
+<em><strong> one of the Graph Challenge Innovation Award Winners </em></strong> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek <br />
 
 
 [Programming strategies for irregular algorithms on the Emu Chick](https://arxiv.org/abs/1901.02775) <br />
 <em>ACM Transactions on Parallel Computing (TOPC) - to appear</em> <br />
-E. Hein, S. Eswar, <strong>A. Yasar</strong>, B. Uçar, Ü. Çatalyürek, T. Conte, J. Riedy, R. Vuduc, and J. S. Young <br />
+E. Hein, S. Eswar, <strong>A. Yasar</strong>, B. Uçar, Ü. Çatalyürek, T. Conte, J. Riedy, R. Vuduc, and J. S. Young <br />
