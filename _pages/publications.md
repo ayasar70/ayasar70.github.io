@@ -27,17 +27,13 @@ M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br
 
 
 [Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
-```
-+ (one of the Graph Challenge Innovation Award Winners) <br />
-```
+<span style="color:red"> (one of the Graph Challenge Innovation Award Winners)</span> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)}</em> <br />
 S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek <br />
 
 
 [Fast Triangle Counting Using Cilk](https://graphchallenge.mit.edu/champions) <br />
-```
-+ (one of the Graph Challenge Champions) <br />
-```
+(one of the Graph Challenge Champions) <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek <br />
 
@@ -62,9 +58,7 @@ S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Cataly
 
 
 [Linear Algebra-Based Triangle Counting via Fine-Grained Tasking on Heterogeneous Environments](https://graphchallenge.mit.edu/champions) <br />
-```
-+ (one of the Graph Challenge Innovation Award Winners) <br />
-```
+(one of the Graph Challenge Innovation Award Winners) <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek <br />
 
