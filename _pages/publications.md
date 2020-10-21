@@ -9,7 +9,7 @@ My research consist of three pillars; data/computation partitioning, algorithm d
 
 [A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
 <em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em> <br />
-M. F. Balin, X. An, <strong> A. Ya\c{s}ar</strong>, L. Song and U. V. Catalyurek <br />
+M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br />
 
 [On Symmetric Rectilinear Matrix Partitioning](https://arxiv.org/abs/2009.07735) <br />
 <em>submitted to SIAM Journal on Scientific Computing (SISC)</em> <br />
@@ -45,7 +45,7 @@ S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Cataly
 
 [SiNA: A Scalable Iterative Network Aligner](https://ieeexplore.ieee.org/abstract/document/8508468) <br />
 <em>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)</em> <br />
-<strong>A. Yasar</strong>, B. U\c{c}ar and U. V. Catalyurek <br />
+<strong>A. Yasar</strong>, B. Ucar and U. V. Catalyurek <br />
 
 
 
