@@ -8,119 +8,61 @@ My research consist of three pillars; data/computation partitioning, algorithm d
 ## Data/Computation Partitioning
 
 [A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
-<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em><br />
-M. F. Balin, X. An, <strong> A. Ya\c{s}ar</strong>, L. Song and U. V. Catalyurek
+<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em> <br />
+M. F. Balin, X. An, <strong> A. Ya\c{s}ar</strong>, L. Song and U. V. Catalyurek <br />
 
-
-<!-- {\href{https://arxiv.org/abs/2009.07735}{On Symmetric Rectilinear Matrix Partitioning}} \hfill {2020}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em submitted to SIAM Journal on Scientific Computing (SISC)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, M. F. Balin, X. An, K. Sancak and U. V. Catalyurek}
+[On Symmetric Rectilinear Matrix Partitioning](https://arxiv.org/abs/2009.07735) <br />
+<em>submitted to SIAM Journal on Scientific Computing (SISC)</em> <br />
+<strong>A. Yasar</strong>, M. F. Balin, X. An, K. Sancak and U. V. Catalyurek <br />
 
 
 
-{\href{https://link.springer.com/article/10.1007/s10619-017-7191-3}{Distributed block formation and layout for disk-based management of large-scale graphs}} \hfill {2017}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em Distributed and Parallel Databases (DPDS)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, B. Gedik, H. Ferhatosmanoğlu}
+[Distributed block formation and layout for disk-based management of large-scale graphs](https://link.springer.com/article/10.1007/s10619-017-7191-3) <br />
+<em>Distributed and Parallel Databases (DPDS)</em> <br />
+<strong>A. Yasar</strong>, B. Gedik, H. Ferhatosmanoğlu <br />
 
 
 
-{\color{Orange}\large \sc Block-based Algorithm Design \& Graph Mining}
+## Block-based Algorithm Design \& Graph Mining
 
 
-{\href{https://graphchallenge.mit.edu/champions}{Scalable Triangle Counting on Distributed-Memory Systems} {\color{red} (one of the {Graph Challenge Innovation Award Winners})}} \hfill {2019}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
-\vspace{-.15in}
-
-{\small S. Acer, {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek}
+[Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
+(one of the Graph Challenge Innovation Award Winners) <br />
+<em>IEEE High Performance Extreme Computing Conference (HPEC)}</em> <br />
+S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek <br />
 
 
+[Fast Triangle Counting Using Cilk](https://graphchallenge.mit.edu/champions) <br />
+(one of the Graph Challenge Champions) <br />
+<em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
+<strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek <br />
 
 
-{\href{https://graphchallenge.mit.edu/champions}{Fast Triangle Counting Using Cilk} {\color{red} (one of the {Graph Challenge Champions})}} \hfill {2018}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek}
+[An Iterative Global Structure-Assisted Network Aligner](https://dl.acm.org/citation.cfm?id=3219819.3220079) <br />
+<em>ACM International Conference on Knowledge Discovery \& Data Mining (KDD)</em> <br />
+<strong>A. Yasar</strong> and U. V. Catalyurek <br />
 
 
-
-
-{\href{https://dl.acm.org/citation.cfm?id=3219819.3220079}{An Iterative Global Structure-Assisted Network Aligner}} \hfill {2018}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em ACM International Conference on Knowledge Discovery \& Data Mining (KDD)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar} and U. V. Catalyurek}
+[SiNA: A Scalable Iterative Network Aligner](https://ieeexplore.ieee.org/abstract/document/8508468) <br />
+<em>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)</em> <br />
+<strong>A. Yasar</strong>, B. U\c{c}ar and U. V. Catalyurek <br />
 
 
 
-
-{\href{https://ieeexplore.ieee.org/abstract/document/8508468}{{\sc SiNA}: A Scalable Iterative Network Aligner}} \hfill {2018}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, B. U\c{c}ar and U. V. Catalyurek}
+## Performance Portability
 
 
+[bbTC: A Block-Based Triangle Counting Algorithm on Heterogeneous Environments](https://arxiv.org/abs/2009.12457) <br />
+<em> submitted to IEEE Transactions on Parallel and Distributed Systems (TPDS)</em> <br />
+<strong>A. Yasar</strong>, S. Rajamanickam, J. W. Berry and U. V. Catalyurek <br />
 
 
-{\color{Orange}\large\sc Performance Portability}
+[Linear Algebra-Based Triangle Counting via Fine-Grained Tasking on Heterogeneous Environments](https://graphchallenge.mit.edu/champions) <br />
+(one of the Graph Challenge Innovation Award Winners) <br />
+<em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
+<strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek <br />
 
 
-
-
-{\href{https://arxiv.org/abs/2009.12457}{{\sc bbTC}: A Block-Based Triangle Counting Algorithm on Heterogeneous Environments}} \hfill {2020}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em  submitted to IEEE Transactions on Parallel and Distributed Systems (TPDS)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, J. W. Berry and U. V. Catalyurek}
-
-
-
-
-{\href{https://graphchallenge.mit.edu/champions}{Linear Algebra-Based Triangle Counting via Fine-Grained Tasking on Heterogeneous Environments} {\color{red} (one of the {Graph Challenge Innovation Award Winners})}} \hfill {2019}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
-\vspace{-.15in}
-
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek}
-
-
-
-
-{\href{https://arxiv.org/abs/1901.02775}{Programming strategies for irregular algorithms on the Emu Chick} } \hfill {2019}
-\\
-\vspace*{-.15in}
-\vspace{-.1cm}
-{\small \em ACM Transactions on Parallel Computing (TOPC) - to appear}\\
-\vspace{-.15in}
-
-{\small E. Hein, S. Eswar, {\bf A. Ya\c{s}ar}, B. Uçar, Ü. Çatalyürek, T. Conte, J. Riedy, R. Vuduc, and J. S. Young} -->
-
-
+[Programming strategies for irregular algorithms on the Emu Chick](https://arxiv.org/abs/1901.02775) <br />
+<em>ACM Transactions on Parallel Computing (TOPC) - to appear</em> <br />
+E. Hein, S. Eswar, <strong>A. Yasar</strong>, B. Uçar, Ü. Çatalyürek, T. Conte, J. Riedy, R. Vuduc, and J. S. Young <br />
