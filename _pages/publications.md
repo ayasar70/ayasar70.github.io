@@ -7,9 +7,9 @@ My research consist of three pillars; data/computation partitioning, algorithm d
 
 # Data/Computation Partitioning
 
-[A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](\href{https://www.ipdps.org)
-submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)\\
-M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
+[A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org)
+<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em>
+M. F. Balin, X. An, <strong> A. Ya\c{s}ar</strong>, L. Song and U. V. Catalyurek
 
 
 <!-- {\href{https://arxiv.org/abs/2009.07735}{On Symmetric Rectilinear Matrix Partitioning}} \hfill {2020}
@@ -19,7 +19,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em submitted to SIAM Journal on Scientific Computing (SISC)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar}, M. F. Balin, X. An, K. Sancak and \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar}, M. F. Balin, X. An, K. Sancak and U. V. Catalyurek}
 
 
 
@@ -44,7 +44,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
 \vspace{-.15in}
 
-{\small S. Acer, {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf and \"U. V. \c{C}ataly\"urek}
+{\small S. Acer, {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek}
 
 
 
@@ -56,7 +56,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek}
 
 
 
@@ -68,7 +68,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em ACM International Conference on Knowledge Discovery \& Data Mining (KDD)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar} and \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar} and U. V. Catalyurek}
 
 
 
@@ -80,7 +80,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar}, B. U\c{c}ar and \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar}, B. U\c{c}ar and U. V. Catalyurek}
 
 
 
@@ -97,7 +97,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em  submitted to IEEE Transactions on Parallel and Distributed Systems (TPDS)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, J. W. Berry and \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, J. W. Berry and U. V. Catalyurek}
 
 
 
@@ -109,7 +109,7 @@ M. F. Balin, X. An, {\bf A. Ya\c{s}ar}, L. Song and \"U. V. \c{C}ataly\"urek
 {\small \em IEEE High Performance Extreme Computing Conference (HPEC)}\\
 \vspace{-.15in}
 
-{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and \"U. V. \c{C}ataly\"urek}
+{\small {\bf A. Ya\c{s}ar}, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek}
 
 
 
