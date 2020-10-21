@@ -33,7 +33,7 @@ S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Cataly
 
 
 [Fast Triangle Counting Using Cilk](https://graphchallenge.mit.edu/champions) <br />
-<em><strong> one of the Graph Challenge Champions </em></strong> <br />
+<em><strong> one of the Graph Challenge Champions </strong> </em> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, U. V. Catalyurek <br />
 
@@ -58,7 +58,7 @@ S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Cataly
 
 
 [Linear Algebra-Based Triangle Counting via Fine-Grained Tasking on Heterogeneous Environments](https://graphchallenge.mit.edu/champions) <br />
-<em><strong> one of the Graph Challenge Innovation Award Winners </em></strong> <br />
+<em><strong> one of the Graph Challenge Innovation Award Winners </strong> </em> <br />
 <em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf, J. W. Berry, J. S. Young and U. V. Catalyurek <br />
 
