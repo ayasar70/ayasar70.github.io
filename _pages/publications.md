@@ -5,10 +5,10 @@ title: "Publications"
 
 My research consist of three pillars; data/computation partitioning, algorithm design, and portability. These problems are interrelated, hence effective solutions require attention to all areas.
 
-# Data/Computation Partitioning
+## Data/Computation Partitioning
 
-[A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org)
-<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em>
+[A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
+<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em><br />
 M. F. Balin, X. An, <strong> A. Ya\c{s}ar</strong>, L. Song and U. V. Catalyurek
 
 
