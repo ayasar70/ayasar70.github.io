@@ -1,6 +1,7 @@
 ---
-permalink: /index
+permalink: /
 title: "About me"
+layout: "home"
 ---
 
 I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
