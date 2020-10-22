@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello"
+title: "Abdurrahman Yasar"
 layout: "home"
 author_profile: true
 ---
