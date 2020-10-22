@@ -8,7 +8,7 @@ My research consist of three pillars; data/computation partitioning, algorithm d
 ## Data/Computation Partitioning
 
 (P3) [A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
-<em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em> <br />
+<em>submitted to IEEE International Parallel & Distributed Processing Symposium (IPDPS)</em> <br />
 M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br />
 
 (P2) [On Symmetric Rectilinear Matrix Partitioning](https://arxiv.org/abs/2009.07735) <br />
@@ -21,7 +21,7 @@ M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br
 
 
 
-## Block-based Algorithm Design \& Graph Mining
+## Block-based Algorithm Design & Graph Mining
 
 
 (G4) [Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
