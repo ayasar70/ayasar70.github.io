@@ -10,5 +10,12 @@ My research interests are in large-scale graph mining and processing. I’m
 advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
 
 
-| ![GitHub Logo](/assets/images/ay.png) | ![GitHub Logo](/assets/images/ay.png) | ![GitHub Logo](/assets/images/ay.png) |
-| You Can Also   | Put Pipes In | Like this \| |
+| ![GitHub Logo](/assets/images/ay.png) <br />
+First Project
+
+| ![GitHub Logo](/assets/images/ay.png) <br />
+Second Project
+
+| ![GitHub Logo](/assets/images/ay.png) <br />
+Thire Project
+|
