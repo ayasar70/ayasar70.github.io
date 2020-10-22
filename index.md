@@ -10,9 +10,9 @@ My research interests are in large-scale graph mining and processing. I’m
 advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
 
 | :-------------: |:-------------:|
-| ![GitHub Logo](/assets/images/ay.png){:width="36px"} | aslan |
-| ![GitHub Logo](/assets/images/ay.png) | kaplan |
-| ![GitHub Logo](/assets/images/ay.png) | tarkan |
+| ![GitHub Logo](/assets/images/ay.png){:width="128px"} | aslan |
+| ![GitHub Logo](/assets/images/ay.png){:width="128px"} | kaplan |
+| ![GitHub Logo](/assets/images/ay.png){:width="128px"} | tarkan |
 
 
 
