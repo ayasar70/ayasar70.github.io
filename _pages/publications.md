@@ -7,17 +7,15 @@ My research consist of three pillars; data/computation partitioning, algorithm d
 
 ## Data/Computation Partitioning
 
-[A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
+(P3) [A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
 <em>submitted to IEEE International Parallel \& Distributed Processing Symposium (IPDPS)</em> <br />
 M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br />
 
-[On Symmetric Rectilinear Matrix Partitioning](https://arxiv.org/abs/2009.07735) <br />
+(P2) [On Symmetric Rectilinear Matrix Partitioning](https://arxiv.org/abs/2009.07735) <br />
 <em>submitted to SIAM Journal on Scientific Computing (SISC)</em> <br />
 <strong>A. Yasar</strong>, M. F. Balin, X. An, K. Sancak and U. V. Catalyurek <br />
 
-
-
-[Distributed block formation and layout for disk-based management of large-scale graphs](https://link.springer.com/article/10.1007/s10619-017-7191-3) <br />
+(P1) [Distributed block formation and layout for disk-based management of large-scale graphs](https://link.springer.com/article/10.1007/s10619-017-7191-3) <br />
 <em>Distributed and Parallel Databases (DPDS)</em> <br />
 <strong>A. Yasar</strong>, B. Gedik, H. Ferhatosmanoğlu <br />
 
