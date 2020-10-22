@@ -11,4 +11,5 @@ advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
 
 
 | ![GitHub Logo](/assets/images/ay.png) | ![GitHub Logo](/assets/images/ay.png) | ![GitHub Logo](/assets/images/ay.png) |
+| :-------------: |:-------------:| :-----:|
 | Explanation i  | Explanation i  | Explanation i  |
