@@ -5,6 +5,8 @@ title: "Publications"
 
 My research consist of three pillars; data/computation partitioning, algorithm design, and portability. These problems are interrelated, hence effective solutions require attention to all areas.
 
+![GitHub Logo](/assets/images/venn.png)
+
 ## Data/Computation Partitioning
 
 (P3) [A Novel Subgradient-based Method for d-Dimensional Rectilinear Partitioning](https://www.ipdps.org) <br />
