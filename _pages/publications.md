@@ -28,7 +28,7 @@ M. F. Balin, X. An, <strong> A. Yasar</strong>, L. Song and U. V. Catalyurek <br
 
 (G4) [Scalable Triangle Counting on Distributed-Memory Systems](https://graphchallenge.mit.edu/champions) <br />
 <em><strong> one of the Graph Challenge Innovation Award Winners</strong></em> <br />
-<em>IEEE High Performance Extreme Computing Conference (HPEC)}</em> <br />
+<em>IEEE High Performance Extreme Computing Conference (HPEC)</em> <br />
 S. Acer, <strong>A. Yasar</strong>, S. Rajamanickam, M. M. Wolf and U. V. Catalyurek <br />
 
 (G3) [An Iterative Global Structure-Assisted Network Aligner](https://dl.acm.org/citation.cfm?id=3219819.3220079) <br />
