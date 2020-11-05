@@ -8,6 +8,9 @@ author_profile: true
 I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
 My research interests are in large-scale graph mining and processing. I’m
 advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
+Currently I am working on an algorithmic framework that enables writing
+performance portable graph algorithm on a single node multi-CPU multi-GPU
+heterogeneous server.
 
 | :---------: |:-----------------:|
 | ![GitHub Logo](/assets/images/sarma.png){:width="1024px"} | <strong> Partitioning:</strong> The balanced distribution of the computation and the data to the processors is crucial for achieving good efficiency. Partitioning is the first step and refers to both data and computation partitioning. Towards my PhD. I studied several efficient partitioning techniques to speed up irregular problems. [Read More](./publications)|
