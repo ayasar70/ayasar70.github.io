@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
-My research interests are in large-scale graph mining and processing. I’m
+My research interests are in high-performance large-scale graph mining and processing. I’m
 advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
 Currently I am working on an algorithmic framework that enables writing
 performance portable graph algorithm on a single node multi-CPU multi-GPU
