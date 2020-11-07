@@ -2,7 +2,5 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "About me"
-    url: /about/
   - title: "CV"
     url: ayasar70.github.io/assets/yasar-resume.pdf
