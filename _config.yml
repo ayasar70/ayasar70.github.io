@@ -20,7 +20,7 @@ title                    : "Abdurrahman Yasar"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Abdurrahman Yasar"
-description              : "Computer Engineer, PhD. Candidate, Georgia Tech."
+description              : "Nvidia"
 url                      : #"/about/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
