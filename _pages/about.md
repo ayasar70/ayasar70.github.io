@@ -3,8 +3,8 @@ permalink: /about/
 title: "About me"
 ---
 
-I’m a PhD candidate in Computational Science and Engineering at Georgia Tech.
+I’m a DevTech engineer at Nvidia.
 
-My research interests are in large-scale graph mining and processing. I’m
-advised by Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
+Prior to that, I receive my PhD. from Georgia Tech under supervision of Professor [Umit V. Catalyurek](http://cc.gatech.edu/~umit).
+My research interests are in large-scale graph mining and processing.
 
